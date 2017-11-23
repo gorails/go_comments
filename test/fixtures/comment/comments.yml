@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  commentable_type: MyString
+  commentable_id: 1
+  body: MyText
+  parent_id: 1
+  depth: 1
+
+two:
+  user_id: 1
+  commentable_type: MyString
+  commentable_id: 1
+  body: MyText
+  parent_id: 1
+  depth: 1

@@ -1,0 +1,2 @@
+module Comment::CommentsHelper
+end

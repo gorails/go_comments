@@ -1,0 +1,10 @@
+<div class="comments comments">
+  <div class="heading">Comments</div>
+  <div class="comments-list">
+    <%= render partial: 'comment/comments/comment', collection: comments, as: :comment %>
+  </div>
+  <div class="comments-footer">
+  </div>
+</div>
+
+<%= render partial: 'comment/comments/form', locals: {comment: comments.new} %>
